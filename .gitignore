@@ -1,3 +1,4 @@
 /src/firebase.js
 /src/admin.js
 /node_modules/
+.env
