@@ -1,6 +1,5 @@
 require('dotenv').config()
 require('../src/auth')
-require('../src/binance')
 const app = require('../src/app')
 const http = require('http')
 const httpServer = http.createServer(app)

@@ -16,4 +16,7 @@ app.use('/evento/mail', mail)
 const image = require('./routes/image-route')
 app.use('/evento/image', image)
 
+const backup = require('./routes/backup-route')
+app.use('/evento/backup', backup)
+
 module.exports = app
